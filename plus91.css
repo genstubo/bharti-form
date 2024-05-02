@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/images/lapnioz\ image\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.maincontainer{
+    position: absolute;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    width: 400px;
+    height: 450px;
+    border-radius: 30px ;
+    border: none;
+    
+}
+.plus91head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.lapinozHeaderText{
+    margin-left: 8px;
+}
+.informationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.subjectInput, .nameInput, .emailInput, .phoneInput, .discriptionsInput{
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 20px;
+}
+.itemsInput{
+    width: 310px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 25px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.submitButoon{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(25, 133, 248);
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.15s;
+    
+}
+.submitButoon:hover{
+    opacity: 0.8;
+}
+
+
